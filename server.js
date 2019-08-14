@@ -18,8 +18,8 @@ app.use(bodyParser.json());
 
 // ROUTER
 // This is where we link the apiroutes file to handle the routing of get requests
-require("./app/routing/apiRoutes");
-require("./app/routing/htmlRoutes");
+require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
 
 
 // SERVER PORT LISTENER
