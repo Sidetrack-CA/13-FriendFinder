@@ -4,7 +4,7 @@
   "description": "Friend Finder Dating App",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "expres": "^0.0.5",
     "heroku": "^7.25.0"
   },
